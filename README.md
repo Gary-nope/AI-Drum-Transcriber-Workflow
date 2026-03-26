@@ -12,7 +12,7 @@
 ### 🛠️ 工具链与获取指引 (Tools & Downloads)
 
 1. **分离纯鼓轨 (根据你的硬件情况三选一):**
-   * **[Google Colab 极简提取脚本](./Colab-Drum-Extractor.ipynb) (强烈推荐):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/<你的仓库名>/blob/main/Colab-Drum-Extractor.ipynb)
+   * **[Google Colab 极简提取脚本](./Colab-Drum-Extractor.ipynb) (强烈推荐):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/AI-Drum-Transcriber-Workflow/blob/main/Colab-Drum-Extractor.ipynb)
      利用谷歌免费 GPU 算力运行开源分离模型。不吃本地电脑配置，无严格时长限制，分离质量极高。
    * **[Ultimate Vocal Remover (UVR5)](https://github.com/Anjok07/ultimatevocalremovergui) (适合高配主机):** 顶级的本地 AI 音轨分离客户端。
      > **⚠️ UVR5 硬件要求：** GPU 转换最低要求 Nvidia GTX 1060 6GB，推荐 8GB 以上显存。低于此配置易触发显存溢出 (OOM)。仅兼容 64 位平台。
