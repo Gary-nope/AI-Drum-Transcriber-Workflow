@@ -16,13 +16,13 @@
 本项目由两个核心阶段组成：
 
 1. **Stage 1: 纯鼓声提取 (根据偏好二选一)**
-   * **[Colab 纯鼓声提取器](./Colab-Drum-Extractor.ipynb) (强烈推荐):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/<你的仓库名>/blob/main/Colab-Drum-Extractor.ipynb)
+   * **[Colab 纯鼓声提取器](./Colab-Drum-Extractor.ipynb) (强烈推荐):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/AI-Drum-Transcriber-Workflow/blob/main/Colab-Drum-Extractor.ipynb)
      利用谷歌免费 GPU 算力运行 Demucs v4 模型。完全免费，无时长限制，分离质量极高。
    * **[X-Minus Pro AI](https://x-minus.pro/ai) (极简网页端平替):** 开箱即用的在线分离网站。**局限：** 免费账户每日仅十几分钟处理额度，适合轻度尝鲜。
    * *(注：拥有高配显卡如 RTX 3060 以上的用户，也可使用本地端的 [UVR5](https://github.com/Anjok07/ultimatevocalremovergui) 完成此步骤。)*
 
 2. **[Stage 2: 语义转录生成器 (Colab Omnizart Transcriber)](./Colab-Drum-To-MIDI-Omnizart.ipynb)**
-   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/<你的仓库名>/blob/main/Colab-Drum-To-MIDI-Omnizart.ipynb)
+   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/AI-Drum-Transcriber-Workflow/blob/main/Colab-Drum-To-MIDI-Omnizart.ipynb)
    * **底层模型:** MCT Lab Omnizart (Drum Module)
    * **用途:** 上传你在 Stage 1 提取的纯净鼓声音频，AI 将自动进行瞬态捕捉与乐器语义分类，直接生成标准映射的 `.mid` 鼓谱文件。
 
@@ -62,13 +62,13 @@ This project offers a **Dual-Cloud AI Assembly Line**: First, it isolates the dr
 This workflow consists of two core stages:
 
 1. **Stage 1: Pure Drum Extraction (Choose One)**
-   * **[Colab Drum Extractor](./Colab-Drum-Extractor.ipynb) (Highly Recommended):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/<你的仓库名>/blob/main/Colab-Drum-Extractor.ipynb)
+   * **[Colab Drum Extractor](./Colab-Drum-Extractor.ipynb) (Highly Recommended):** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/AI-Drum-Transcriber-Workflow/blob/main/Colab-Drum-Extractor.ipynb)
      Uses Google's free cloud GPU to run Demucs v4. No strict time limits and top-tier separation quality.
    * **[X-Minus Pro AI](https://x-minus.pro/ai) (Web Alternative):** Ready out of the box. **Limitation:** Free accounts are restricted to ~10 mins of audio processing per day.
    * *(Note: Users with high-end GPUs can also use the local [UVR5](https://github.com/Anjok07/ultimatevocalremovergui) client for this step.)*
 
 2. **[Stage 2: Colab Omnizart Transcriber](./Colab-Drum-To-MIDI-Omnizart.ipynb)**
-   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/<你的仓库名>/blob/main/Colab-Drum-To-MIDI-Omnizart.ipynb)
+   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gary-nope/AI-Drum-Transcriber-Workflow/blob/main/Colab-Drum-To-MIDI-Omnizart.ipynb)
    * **Powered by:** MCT Lab Omnizart
    * **Purpose:** Upload the isolated drum track from Stage 1, and the AI will automatically capture transients, classify the instruments semantically, and generate a standard-mapped `.mid` drum sheet file.
 
